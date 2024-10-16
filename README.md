@@ -1,6 +1,10 @@
 ## Overview
 The Cloud Armor Node Controller can help provide UDP DDoS protection for game customers trying to adopt GCP. It allows users to apply security policies filtered by node labels. The Cloud Armor Node Controller acts as a temporary solution until GKE provides integration of DDoS protection for GKE Node IPs.
 
+## Creating the security policy
+Follow the guide here to create a network edge security policy: https://cloud.google.com/armor/docs/network-edge-policies. Note that you must enroll in [Google Cloud Armor Enterprise](https://cloud.google.com/armor/docs/armor-enterprise-using#enrolling) and [configure advanced network DDoS protection](https://cloud.google.com/armor/docs/advanced-network-ddos#activate-advanced-ddos-protection) before being able to create a network edge security policy.
+
+
 ## Deployment
 Steps to run the Cloud Armor Node Controller:
 
